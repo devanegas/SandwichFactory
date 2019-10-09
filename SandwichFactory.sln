@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandwichFactory", "SandwichFactory\SandwichFactory.csproj", "{629DA38D-AC21-4C13-8CDE-F54B1AB648CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{629DA38D-AC21-4C13-8CDE-F54B1AB648CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629DA38D-AC21-4C13-8CDE-F54B1AB648CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629DA38D-AC21-4C13-8CDE-F54B1AB648CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629DA38D-AC21-4C13-8CDE-F54B1AB648CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24128F7F-0640-40B5-9469-2B1043739CD2}
+	EndGlobalSection
+EndGlobal
