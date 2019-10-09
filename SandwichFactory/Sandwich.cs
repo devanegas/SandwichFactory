@@ -14,8 +14,10 @@ namespace SandwichFactory
         {
             Console.WriteLine("Cutting your: " + Bread + " bread\n");
         }
-
-        //TODO Place Protein
+        public void PlaceProtein()
+        {
+            Console.WriteLine("Placing your protein: " + Protein + "\n");
+        }
         public void PlaceToppings()
         {
             Console.WriteLine("Adding Toppings:\n");
@@ -24,17 +26,14 @@ namespace SandwichFactory
                 Console.WriteLine("> " + topping);
             }
         }
-
         public void Toast()
         {
             Console.WriteLine("\nToasting your Sandwich\n");
         }
-
         public void Box()
         {
             Console.WriteLine("Putting your Sandwich in a box! Ready to Go!\n");
         }
-
         public string GetName()
         {
             return Name;

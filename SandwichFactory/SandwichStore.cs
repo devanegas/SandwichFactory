@@ -12,6 +12,7 @@ namespace SandwichFactory
             sandwich = CreateSandwich(type);
 
             sandwich.CutBread();
+            sandwich.PlaceProtein();
             sandwich.PlaceToppings();
             sandwich.Toast();
             sandwich.Box();
